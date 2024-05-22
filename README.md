@@ -8,7 +8,6 @@ classDiagram
         +volume(int volume)
         +notaAlbum(int nota)
     }
-
     class AparelhoTelefonico {
         +selecionarContato(String contato)
         +adicionarContatoFavoritos(String contato)
@@ -17,17 +16,14 @@ classDiagram
         +receberChamada()
         +iniciarCorreioVoz()
     }
-
     class NavegadorInternet {
         +exibirPagina(String url)
         +novaAba()
         +trocarAba()
         +atualizarPagina()
     }
-
     class iPhone {
     } 
-    
     iPhone --> ReprodutorMusical
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
