@@ -32,8 +32,8 @@ public class iPhone {
     }
 
     public void usarAparelhoTelefonico() {
-        aparelhoTelefonico.selecionarContato("Igao Pensador");
-        aparelhoTelefonico.adicionarContatoFavoritos("Danilao do Leite");
+        aparelhoTelefonico.selecionarContato("Tarcisio Damascena");
+        aparelhoTelefonico.adicionarContatoFavoritos("Tarcisio Damascena");
         aparelhoTelefonico.discarNumero("1029312038");
         aparelhoTelefonico.fazerChamada();
         aparelhoTelefonico.receberChamada();
